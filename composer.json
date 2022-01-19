@@ -1,4 +1,21 @@
 {
+    "name": "rasmus0201/php-lmdb",
+    "description": "Lightweight lmdb wrapper for OOP",
+    "keywords": [
+        "php",
+        "lmdb",
+        "lmdb wrapper",
+        "database",
+        "memory-mapped database"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasmus Sørensen",
+            "homepage": "https://rasmusbundsgaard.dk/",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.4"
     },
