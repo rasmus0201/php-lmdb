@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/../vendor/autoload.php';
+
 use Bundsgaard\Lmdb\Database;
 
 $db = new Database('db.mdb', Database::WRITE_MODE);
