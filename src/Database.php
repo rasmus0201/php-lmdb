@@ -63,7 +63,7 @@ class Database
         return $manyResult ?: false;
     }
 
-    public function get(string $key, string $default = null): mixed
+    public function get(string $key, string $default = null)
     {
         $value = dba_fetch($this->prefixKey($key), $this->handle);
 
